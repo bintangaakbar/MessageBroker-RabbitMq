@@ -5,8 +5,9 @@ connection = pika.BlockingConnection(
     pika.ConnectionParameters(host='localhost'))
 channel = connection.channel()
 
-channel.queue_declare(queue='hello')
+channel.queue_declare(queue='EAI')
 
-channel.basic_publish(exchange='', routing_key='hello', body='Perkenalkan nama saya Bintang')
-print(" [x] Sent 'Hello World!'")
+body = input("Masukkan Pesan anda: ")
+channel.basic_publish(exchange='', routing_key='EAI', body=body)
+print(" [x] Mengirimkan", body)
 connection.close()

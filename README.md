@@ -1,12 +1,12 @@
 
 # Message Broker using RabbitMq
 
-Project ini dilakukan untuk memenuhi salahsatu tugas matakuliah Enterprise Application Integration
+This project was carried out to fulfill one of the assignments for the Enterprise Application Integration course
 
-## Dibangun oleh
+## Build By
 
-- [@Bintang Anugrah Akbar](https://.github.com/bintangaakbar)
-- [@Bintang Anugrah Akbar](https://github.com/safikassegaf)
+- [Bintang Anugrah Akbar](https://.github.com/bintangaakbar)
+- [Safik Assegaf](https://github.com/safikassegaf)
 
 ## Deployment
 

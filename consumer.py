@@ -16,7 +16,7 @@ def main():
     print('Sedang menunggu pesan, klik CTRL + C untuk keluar!')
     channel.start_consuming()   #memulai untuk menerima pesan dari queue EAI yang dikirimkan oleh producer
 
-if __name__ == '__main__':
+if __name__ == '__main__': #kode ini dibuat untuk bisa keluar dari loop consuming
     try:
         main()
     except KeyboardInterrupt:

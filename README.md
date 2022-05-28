@@ -53,5 +53,5 @@ Clone this repository
 
 ## Documentation
 
-[Not ready yet](https://youtube.com)
+[Youtube Video](https://youtu.be/1hdo09v3f-4)
 
